@@ -15,9 +15,9 @@ export default function Header() {
       label: 'Aire Acondicionado',
       href: '/aire-acondicionado',
       submenu: [
-        { label: 'Residencial', href: '/aire-acondicionado/residencial' },
-        { label: 'Comercial Ligero', href: '/aire-acondicionado/comercial-ligero' },
-        { label: 'Comercial', href: '/aire-acondicionado/comercial' },
+        { label: 'Residencial (RAC)', href: '/aire-acondicionado/residencial' },
+        { label: 'Comercial Ligero (LCAC)', href: '/aire-acondicionado/comercial-ligero' },
+        { label: 'Comercial (CAC)', href: '/aire-acondicionado/comercial' },
       ],
     },
     { label: 'Mantenimiento', href: '/mantenimiento' },

@@ -63,7 +63,7 @@ export default function VentaEquipos() {
           >
             <h2 className="text-2xl font-bold text-primary mb-4">Nuestros Tipos de Equipos</h2>
             <p className="text-foreground/70">
-              En ITEK PERÚ disponemos de una completa gama de equipos de climatización adaptados a cada necesidad. 
+              En ITEK PERÚ disponemos de una completa gama de equipos de aire acondicionado de las principales marcas de como York, LG, Midea, Samsung.
               Todos nuestros equipos cumplen con estándares internacionales de calidad y eficiencia.
             </p>
           </motion.div>
