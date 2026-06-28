@@ -101,19 +101,19 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Contacto</h4>
             <ul className="space-y-3 text-sm text-white/80">
               <li className="flex items-start gap-2">
-                <Phone size={16} className="mt-1 flex-shrink-0" />
+                <Phone size={16} className="mt-1 shrink-0" />
                 <a href="tel:+51980713201" className="hover:text-white transition-colors">
-                  +51 980 713 201
+                  +51 999 999 999
                 </a>
               </li>
               <li className="flex items-start gap-2">
-                <Mail size={16} className="mt-1 flex-shrink-0" />
+                <Mail size={16} className="mt-1 shrink-0" />
                 <a href="mailto:venta@itekperu.com" className="hover:text-white transition-colors">
                   venta@itekperu.com
                 </a>
               </li>
               <li className="flex items-start gap-2">
-                <Instagram size={16} className="mt-1 flex-shrink-0" />
+                <Instagram size={16} className="mt-1 shrink-0" />
                 <a
                   href="https://instagram.com/itekperuclimatizacion"
                   target="_blank"

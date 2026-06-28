@@ -45,25 +45,27 @@ export default function Home() {
   ]
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col bg-[url('/Decathlon-Climatizacion-1.jpg')] relative w-full bg-center bg-no-repeat bg-cover bg-fixed">
       <Header />
 
       {/* Hero Section */}
-      <section className="flex-1 bg-gradient-to-br from-primary/5 to-accent/5">
+      <section className="flex-1 bg-linear-to-br from-primary/5 to-accent/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-center"
+            className="text-center"            
           >
-            <h1 className="text-4xl md:text-6xl font-bold text-primary mb-6">
+            <div className='bg-white/50 rounded-2xl m-2'>
+              <h1 className="text-4xl md:text-6xl font-bold text-primary mb-6">
               Climatización Profesional
-            </h1>
-            <p className="text-lg md:text-xl text-foreground/70 max-w-3xl mx-auto mb-8">
-              ITEK PERÚ es tu aliado confiable en soluciones de aire acondicionado y climatización. 
-              Ofrecemos servicios especializados para residencias y negocios.
-            </p>
+              </h1>
+              <p className="text-lg md:text-xl text-foreground/70 max-w-3xl mx-auto mb-8">
+                ITEK PERÚ es tu aliado confiable en soluciones de aire acondicionado y climatización. 
+                Ofrecemos servicios especializados para residencias y negocios.
+              </p>
+              </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.a
                 href="/aire-acondicionado"
@@ -97,7 +99,7 @@ export default function Home() {
             whileInView="visible"
             viewport={{ once: true }}
             variants={containerVariants}
-            className="text-center mb-16"
+            className="text-center mb-16 bg-white/50 rounded-2xl m-2"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
               Nuestros Servicios

@@ -54,7 +54,7 @@ export default function Contacto() {
       </nav>
 
       {/* Hero */}
-      <section className="bg-gradient-to-br from-primary/5 to-accent/5 py-16">
+      <section className="bg-linear-to-br from-primary/5 to-accent/5 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
             <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">
@@ -84,7 +84,7 @@ export default function Contacto() {
               </div>
               <p className="text-foreground/70 mb-2">
                 <a href="tel:+51980713201" className="hover:text-primary transition-colors font-semibold">
-                  +51 980 713 201
+                  +51 999 999 999
                 </a>
               </p>
               <p className="text-sm text-foreground/50">Disponible de lunes a sábado</p>
